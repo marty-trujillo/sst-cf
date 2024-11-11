@@ -1,0 +1,19 @@
+{
+  "name": "sst-cf",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build --target bun index.ts",
+    "dev": "bun run --watch index.ts"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20241106.0",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "sst": "3.3.19"
+  }
+}
